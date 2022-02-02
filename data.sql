@@ -19,17 +19,17 @@ create table flying (
 	point_from varchar(128),
 	point_to varchar(128),
 	flight_time integer,
-	prcie integer
+	price integer
 );
 
 
-insert into flying(id, point_from, point_to, flight_time, prcie) values(1, 'Москва', 		'Киев', 		180, 12000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(2, 'Киев', 			'Ереван',	 	310, 17000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(3, 'Минск', 		'Москва', 		100, 7000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(4, 'Минск', 		'Ереван', 		270, 15000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(5, 'Москва', 		'Минск', 		170, 8000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(6, 'Ереван', 		'Ставрополь', 	90,  10000);
-insert into flying(id, point_from, point_to, flight_time, prcie) values(7, 'Ставрополь', 	'Москва', 		190, 12000);
+insert into flying(id, point_from, point_to, flight_time, price) values(1, 'Москва', 		'Киев', 		180, 12000);
+insert into flying(id, point_from, point_to, flight_time, price) values(2, 'Киев', 			'Ереван',	 	310, 17000);
+insert into flying(id, point_from, point_to, flight_time, price) values(3, 'Минск', 		'Москва', 		100, 7000);
+insert into flying(id, point_from, point_to, flight_time, price) values(4, 'Минск', 		'Ереван', 		270, 15000);
+insert into flying(id, point_from, point_to, flight_time, price) values(5, 'Москва', 		'Минск', 		170, 8000);
+insert into flying(id, point_from, point_to, flight_time, price) values(6, 'Ереван', 		'Ставрополь', 	90,  10000);
+insert into flying(id, point_from, point_to, flight_time, price) values(7, 'Ставрополь', 	'Москва', 		190, 12000);
 
 
 
